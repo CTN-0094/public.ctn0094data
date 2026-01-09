@@ -170,7 +170,7 @@ A tibble with 3,560 rows and
 }
 }
 \source{
-\href{https://jamanetwork.com/journals/jama/article-abstract/379036}{DSM-IV: Diagnostic and Statistical Manual of Mental Disorders, JAMA. 1994;272(10):828-829. doi:10.1001/jama.1994.03520100096046}
+\href{https://jamanetwork.com/journals/jama/fullarticle/379036}{DSM-IV: Diagnostic and Statistical Manual of Mental Disorders, JAMA. 1994;272(10):828-829. doi:10.1001/jama.1994.03520100096046}
 
 \href{https://www.psychiatry.org/psychiatrists/practice/dsm}{Diagnostic and Statistical Manual of Mental Disorders (Fifth ed.). Arlington, VA: American Psychiatric Publishing. ISBN 978-0-89042-555-8.}
 }
