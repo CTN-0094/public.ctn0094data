@@ -1,7 +1,7 @@
 Package: public.ctn0094data
 Title: De-Identified Data from CTN-0094
-Version: 1.0.6
-Date: 2023-09-21
+Version: 1.1.0
+Date: 2026-01-27
 Authors@R: 
     c(
       person(
@@ -21,6 +21,18 @@ Authors@R:
         role = "aut",
         email = "axc2778@miami.edu",
         comment = c(ORCID = "0000-0002-0139-3841")
+      ),
+      person(
+        given = "Kyle", family = "Grealis",
+        role = "aut",
+        email = "kylegrealis@miami.edu",
+        comment = c(ORCID = "0000-0002-9223-8854")
+      ),
+      person(
+        given = "Michael", family = "Ackerman",
+        role = "aut",
+        email = "fmackerman3@gmail.com",
+        comment = c(ORCID = "0000-0003-1255-3123")
       )
     )
 Description: These are harmonized datasets produced as part of the Clinical 
@@ -35,7 +47,7 @@ Encoding: UTF-8
 Language: en-US
 LazyData: true
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5)
 Suggests: 
     broom,
     conflicted,
@@ -69,7 +81,7 @@ Suggests:
     vcdExtra,
     xfun
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.3
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 URL: https://ctn-0094.github.io/public.ctn0094data/
