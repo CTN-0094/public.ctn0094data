@@ -1,3 +1,8 @@
+# public.ctn0094 v1.1.1 (patch release)
+
+## Enhancements
+* Clarified `randomization$when` documentation description. Closes issue [#8](https://github.com/CTN-0094/public.ctn0094data/issues/8)
+
 # public.ctn0094 v1.1.0 (CRAN release)
 
 ## Breaking  
