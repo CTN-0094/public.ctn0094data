@@ -7,3 +7,6 @@ cran-comments.md$
 ^pkgdown$
 ^\.github$
 ^CRAN-SUBMISSION$
+^public.ctn0094data\.Rcheck$
+^public.ctn0094data.*\.tar\.gz$
+^public.ctn0094data.*\.tgz$

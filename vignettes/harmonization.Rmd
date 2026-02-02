@@ -18,11 +18,11 @@ knitr::opts_chunk$set(
 #library(public.ctn0094data)
 ```
 
-One of the objectives for CTN-0094 was to harmonize data from three clinical trials, ctn_0027, ctn_0030, and ctn_0051. This vignette describes harmonization details and the identification/fixing of problematic values in the trial data. Every dataset in this package has its own documentation. To help protect the anonymity of the study participants two steps were taken.  First, the study site information was modified  (see the documentation for [site_masked](../html/site_masked.html) for details).  Second, all dates have been replace by the number of days relative to study consent.  Therefore, some information, like the day of drug use in the month before enrollment is stored as negative numbers.  Below, you will find additional details on the harmonization process.  Section headings correspond to data sets. 
+One of the objectives for CTN-0094 was to harmonize data from three clinical trials, ctn_0027, ctn_0030, and ctn_0051. This vignette describes harmonization details and the identification/fixing of problematic values in the trial data. Every dataset in this package has its own documentation. To help protect the anonymity of the study participants two steps were taken.  First, the study site information was modified  (see the documentation for `public.ctn0094data::site_masked` for details).  Second, all dates have been replace by the number of days relative to study consent.  Therefore, some information, like the day of drug use in the month before enrollment is stored as negative numbers.  Below, you will find additional details on the harmonization process.  Section headings correspond to data sets. 
 
 # The `all_drugs` dataset {#all_drugs}
 
-The `all_drugs` dataset is an agglomeration of all self-reported drugs, drugs found in urine drug screening and alcohol screening in ctn_0027, ctn_0030, and ctn_0051. This data is the result of extensive preprocessing of free text to harmonize drug names, but drugs were not collapsed into groups. For example, the many descriptions, abbreviations, and spellings of variants of suboxone (e.g., “street suboxone”, “bup/nx”, “buxnx”, “bupnx”, “pbupnx”, “bupxx”) were harmonized into a single “suboxone” group but suboxone was not collapsed with other buprenorphine formulations. 
+The `public.ctn0094data::all_drugs` dataset is an agglomeration of all self-reported drugs, drugs found in urine drug screening and alcohol screening in ctn_0027, ctn_0030, and ctn_0051. This data is the result of extensive preprocessing of free text to harmonize drug names, but drugs were not collapsed into groups. For example, the many descriptions, abbreviations, and spellings of variants of suboxone (e.g., “street suboxone”, “bup/nx”, “buxnx”, “bupnx”, “pbupnx”, “bupxx”) were harmonized into a single “suboxone” group but suboxone was not collapsed with other buprenorphine formulations. 
 
 While there were **many** spellings and text variants (including mg and location where drug was administered), the list in [Table 1](#tab:final) summarizes the additional text and the changes were made to the free text entries.  Many free text entries included the combination of two or more drugs.  In these cases, a record was created for each drug.  For example, the free text entry of 'Amitiptyline & Trazadone' (literal incorrect spelling from record used here for example) was converted two records: 'Tryclic-antidepressant' and 'Antidepressant'.
 
@@ -101,7 +101,7 @@ The timeline-followback (TLFB) data had many dozens of typos in dates., nearly a
 
 Urine drug screening (UDS) records also had many date problems. In ctn_0027, approximately 100 records had UDS screening dates that were problematic. There were a dozen problematic dates in ctn_0030. All could be unambiguously fixed using other dated records and form date stamps.
 
-Self-reported drug information in the TLFB in ctn_0027 allowed for free-text entry of any substance. The TLFB for ctn_0030 and ctn_0051 used structured questions to assess the use of alcohol and drugs. Specifically, the TLFB for ctn_0030 only checked for these drugs listed in  [Table 2](#ctn3051tlfb). It allowed for ***free-text entry of only other opiates***, all other abused substances are unknown. Frequently appearing "other opiates" included "Suboxone", "Buprenorphine", "Darvocet" and "Fentanyl."  CTN-51 used the more comprehensive set of drugs listed in [Table 2](#ctn3051tlfb) and it allowed for up to two additional drugs per day.  Frequently occurring free text drugs from ctn_0051 included: Fioricet, Adderall, Baclofen, K2/Spice, Codeine, Fentanyl, Kratom, Bath Salts, Gabapentin, PCP, and Ambien.
+Self-reported drug information in the TLFB in ctn_0027 allowed for free-text entry of any substance. The TLFB for ctn_0030 and ctn_0051 used structured questions to assess the use of alcohol and drugs. Specifically, the TLFB for ctn_0030 only checked for these drugs listed in  [Table 2](#tab:ctn3051tlfb). It allowed for ***free-text entry of only other opiates***, all other abused substances are unknown. Frequently appearing "other opiates" included "Suboxone", "Buprenorphine", "Darvocet" and "Fentanyl."  CTN-51 used the more comprehensive set of drugs listed in [Table 2](#tab:ctn3051tlfb) and it allowed for up to two additional drugs per day.  Frequently occurring free text drugs from ctn_0051 included: Fioricet, Adderall, Baclofen, K2/Spice, Codeine, Fentanyl, Kratom, Bath Salts, Gabapentin, PCP, and Ambien.
 
 <p id="tab:ctn3051tlfb", style="color:gray;">
 
@@ -137,7 +137,7 @@ Table 2: Drugs Assessed by ctn_0030 and ctn_0051 Timeline Followback Questionnai
 
 A few participants (who = 116,166, 250, 934, 1331, 3325) had some TLFB data after the last date with treatment drug which included their treatment medication (buprenorphine).
 
-See [all_drugs](../html/all_drugs.html) for additional details/information.
+See `public.ctn0094data::all_drugs` for additional details/information.
 
 ### Buprenorphine Details
 ctn_0051 consistently gathered self-reported drug use and urine drug screening (UDS) data on buprenorphine even after it was prescribed, but ctn_0027 and ctn_0030 did not. In the rare cases where a subject in ctn_0027 and ctn_0030 self-reported taking the drugs prescribed as part of the trial, those records were _left in the dataset_. Analysts should <mark>proceed with caution</mark> because it is unclear if these are data entry issues or if people were supplementing their prescribed drugs. In ctn_0027 there were no self-reports of buprenorphine but 16 people self-reported their methadone at least once after it was prescribed for them. This accounted for only 112 out of more than 100,000 self-reported drug events in ctn_0027. In ctn_0030, suboxone use was self-reported, after prescription, by six people (for eight problematic records out of tens of thousands of drug use events).
@@ -145,39 +145,39 @@ ctn_0051 consistently gathered self-reported drug use and urine drug screening (
 ctn_0027 did not include buprenorphine in its UDS, ctn_0030 had scheduled screenings for it (in phase 1 at the week 10 and 12/final visits and in phase 2 at the week 22 and 24/final visits) and ctn_0051 consistently checked for it. There are many buprenorphine UDS screenings in ctn_0030 that were not in week 10, 12, 22 or 24 (N = `r 781-171-169-40-16-54-291`).  Nearly always, these seem to be duplicates of the "final visit" records.  Analysts should <mark>proceed with caution</mark> when looking at UDS records for buprenorphine in ctn_0030.
 
 ### Alcohol 
-The timeline followback data for ctn_0027 included free text descriptions of the number of alcoholic beverages consumed on a day.  Free text included entries that ran the gamut from casual drinking (e.g., "1/2 beer for birthday"), through heavy drinking (e.g., "3 16oz beer, 1 shot hard alcohol, 1 mixed drink"), out to dangerous quantities (e.g., "6pk beer & 1/2 gal. rum").  All entries were converted to standard drinks using information at the [National Institute on Alcohol Abuse and Alcoholism](https://www.niaaa.nih.gov/alcohols-effects-health/overview-alcohol-consumption/what-standard-drink), Wikipedia. Bartending references were used to [estimate the number of shots contained in larger  containers](https://www.thespruceeats.com/how-many-shots-in-a-bottle-761232).  Ambiguous entries like "many glasses of wine" were coded as five standard drinks.  For women, between half a standard drink to less than four standard drinks was considered light drinking for a day.  For men, half a standard drink to less than five was considered light drinking for a day.  In ctn_0027 less than eight people were marked as drinking something on a particular day but no details were provided. The drinking records for each person were reviewed. Four people had _no other of alcohol use_, so these records were dropped. Three others had a history of light alcohol use so problematic days were marked as light drinking and one person had an unambiguous history of very heavy drinking, therefore the unknown day was marked as heavy drinking.
+The timeline followback data for ctn_0027 included free text descriptions of the number of alcoholic beverages consumed on a day.  Free text included entries that ran the gamut from casual drinking (e.g., "1/2 beer for birthday"), through heavy drinking (e.g., "3 16oz beer, 1 shot hard alcohol, 1 mixed drink"), out to dangerous quantities (e.g., "6pk beer & 1/2 gal. rum").  All entries were converted to standard drinks using information at the [National Institute on Alcohol Abuse and Alcoholism](https://www.niaaa.nih.gov/alcohols-effects-health/what-standard-drink), Wikipedia. Bartending references were used to estimate the number of shots contained in larger containers (`https://www.thespruceeats.com/how-many-shots-in-a-bottle-761232`).  Ambiguous entries like "many glasses of wine" were coded as five standard drinks.  For women, between half a standard drink to less than four standard drinks was considered light drinking for a day.  For men, half a standard drink to less than five was considered light drinking for a day.  In ctn_0027 less than eight people were marked as drinking something on a particular day but no details were provided. The drinking records for each person were reviewed. Four people had _no other of alcohol use_, so these records were dropped. Three others had a history of light alcohol use so problematic days were marked as light drinking and one person had an unambiguous history of very heavy drinking, therefore the unknown day was marked as heavy drinking.
 
-See [all_drugs](../html/all_drugs.html) for additional details/information.
+See `public.ctn0094data::all_drugs` for additional details/information.
 
 # The `asi` dataset
 
-See [asi](../html/asi.html) for details/information.
+See `public.ctn0094data::asi` for details/information.
 
-# The `days` dataset
-
-See [days](../html/days.html) for details/information.
+<!-- # The `days` dataset
+NOTE FROM KYLE: cannot find reference to this dataset documentation
+See `public.ctn0094data::days` for details/information. -->
 
 # The `demographics` dataset
 
-See [demographics](../html/demographics.html) for details/information.
+See `public.ctn0094data::demographics` for details/information.
 
 # The `detox`  dataset
 
-See [detox](../html/detox.html) for details/information.
+See `public.ctn0094data::detox` for details/information.
 
 # The `everybody` dataset
 
-See [everybody](../html/everybody.html) for details/information.
+See `public.ctn0094data::everybody` for details/information.
 
 # The `fagerstrom` dataset
 
 Tobacco use was not assessed in ctn_0027.  ctn_0030 subjects are scored as being smokers or nonsmokers (in the past 30 days). ctn_0051 assessed current smoking and the Fagerstrom Test For Nicotine Dependence Score.
 
-See [fagerstrom](../html/fagerstrom.html) for additional details/information.
+See `public.ctn0094data::fagerstrom` for additional details/information.
 
 # The `first_survey` dataset 
 
-See [first_survey](../html/first_survey.html) for details/information.
+See `public.ctn0094data::first_survey` for details/information.
 
 # The `pain` dataset {#pain}
 
@@ -207,7 +207,7 @@ While ctn_0027 and ctn_0030 gathered psychiatric symptoms using DSM-4 criteria, 
 
 # The `randomization` dataset
 
-See [randomization](../html/randomization.html) for details/information.
+See `public.ctn0094data::randomization` for details/information.
 
 # The `rbs` dataset {#rbs}
 ctn_0027 and ctn_0030 assessed drug use as the count of days out of the last 30 that drugs (cocaine, heroin alone, speedball, opiate, amphetamine) were used  ctn_0051 assessed the number of days of drug use on an ordinal scale which was converted to number of days. The conversion is show in [Table 3](#tab:ivdays). 
@@ -225,15 +225,15 @@ Table 3: Estimated Days of Drug Use Based on ctn_0051 Categories
 
 # The `rbs_iv` dataset
 
-See [rbs_iv](../html/rbs_iv.html) for details/information.
+See `public.ctn0094data::rbs_iv` for details/information.
 
 # The `screening_date` dataset
 
-See [screening_date](../html/screening_date.html) for details/information.
+See `public.ctn0094data::screening_date` for details/information.
 
 # The `sex` dataset
 
-See [sex](../html/sex.html) for details/information.
+See `public.ctn0094data::sex` for details/information.
 
 # The `tlfb` dataset {#tlfb}
 
@@ -426,7 +426,7 @@ Subjective Opiate Withdrawal Scale (SOWS)
 
 # The `withdrawal_pre_post`  dataset
 
-See [withdrawal_pre_post](../html/withdrawal_pre_post.html) for details/information.
+See `public.ctn0094data::withdrawal_pre_post` for details/information.
 
 
 ```{r}
