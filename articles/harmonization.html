@@ -20,7 +20,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">public.ctn0094data</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.0.6</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,24 +71,25 @@ describes harmonization details and the identification/fixing of
 problematic values in the trial data. Every dataset in this package has
 its own documentation. To help protect the anonymity of the study
 participants two steps were taken. First, the study site information was
-modified (see the documentation for <a href="../html/site_masked.html">site_masked</a> for details). Second,
-all dates have been replace by the number of days relative to study
-consent. Therefore, some information, like the day of drug use in the
-month before enrollment is stored as negative numbers. Below, you will
-find additional details on the harmonization process. Section headings
+modified (see the documentation for
+<code><a href="../reference/site_masked.html">public.ctn0094data::site_masked</a></code> for details). Second, all
+dates have been replace by the number of days relative to study consent.
+Therefore, some information, like the day of drug use in the month
+before enrollment is stored as negative numbers. Below, you will find
+additional details on the harmonization process. Section headings
 correspond to data sets.</p>
 <div class="section level2">
 <h2 id="all_drugs">The <code>all_drugs</code> dataset<a class="anchor" aria-label="anchor" href="#all_drugs"></a>
 </h2>
-<p>The <code>all_drugs</code> dataset is an agglomeration of all
-self-reported drugs, drugs found in urine drug screening and alcohol
-screening in ctn_0027, ctn_0030, and ctn_0051. This data is the result
-of extensive preprocessing of free text to harmonize drug names, but
-drugs were not collapsed into groups. For example, the many
-descriptions, abbreviations, and spellings of variants of suboxone
-(e.g., “street suboxone”, “bup/nx”, “buxnx”, “bupnx”, “pbupnx”, “bupxx”)
-were harmonized into a single “suboxone” group but suboxone was not
-collapsed with other buprenorphine formulations.</p>
+<p>The <code><a href="../reference/all_drugs.html">public.ctn0094data::all_drugs</a></code> dataset is an
+agglomeration of all self-reported drugs, drugs found in urine drug
+screening and alcohol screening in ctn_0027, ctn_0030, and ctn_0051.
+This data is the result of extensive preprocessing of free text to
+harmonize drug names, but drugs were not collapsed into groups. For
+example, the many descriptions, abbreviations, and spellings of variants
+of suboxone (e.g., “street suboxone”, “bup/nx”, “buxnx”, “bupnx”,
+“pbupnx”, “bupxx”) were harmonized into a single “suboxone” group but
+suboxone was not collapsed with other buprenorphine formulations.</p>
 <p>While there were <strong>many</strong> spellings and text variants
 (including mg and location where drug was administered), the list in <a href="#tab:final">Table 1</a> summarizes the additional text and the
 changes were made to the free text entries. Many free text entries
@@ -385,14 +386,14 @@ stamps.</p>
 free-text entry of any substance. The TLFB for ctn_0030 and ctn_0051
 used structured questions to assess the use of alcohol and drugs.
 Specifically, the TLFB for ctn_0030 only checked for these drugs listed
-in <a href="#ctn3051tlfb">Table 2</a>. It allowed for
+in <a href="#tab:ctn3051tlfb">Table 2</a>. It allowed for
 <strong><em>free-text entry of only other opiates</em></strong>, all
 other abused substances are unknown. Frequently appearing “other
 opiates” included “Suboxone”, “Buprenorphine”, “Darvocet” and
-“Fentanyl.” CTN-51 used the more comprehensive set of drugs listed in <a href="#ctn3051tlfb">Table 2</a> and it allowed for up to two additional
-drugs per day. Frequently occurring free text drugs from ctn_0051
-included: Fioricet, Adderall, Baclofen, K2/Spice, Codeine, Fentanyl,
-Kratom, Bath Salts, Gabapentin, PCP, and Ambien.</p>
+“Fentanyl.” CTN-51 used the more comprehensive set of drugs listed in <a href="#tab:ctn3051tlfb">Table 2</a> and it allowed for up to two
+additional drugs per day. Frequently occurring free text drugs from
+ctn_0051 included: Fioricet, Adderall, Baclofen, K2/Spice, Codeine,
+Fentanyl, Kratom, Bath Salts, Gabapentin, PCP, and Ambien.</p>
 <p id="tab:ctn3051tlfb" style="color:gray;">
 
 Table 2: Drugs Assessed by ctn_0030 and ctn_0051 Timeline Followback Questionnaires.
@@ -530,7 +531,7 @@ Table 2: Drugs Assessed by ctn_0030 and ctn_0051 Timeline Followback Questionnai
 <p>A few participants (who = 116,166, 250, 934, 1331, 3325) had some
 TLFB data after the last date with treatment drug which included their
 treatment medication (buprenorphine).</p>
-<p>See <a href="../html/all_drugs.html">all_drugs</a> for additional
+<p>See <code><a href="../reference/all_drugs.html">public.ctn0094data::all_drugs</a></code> for additional
 details/information.</p>
 <div class="section level4">
 <h4 id="buprenorphine-details">Buprenorphine Details<a class="anchor" aria-label="anchor" href="#buprenorphine-details"></a>
@@ -566,51 +567,50 @@ Free text included entries that ran the gamut from casual drinking
 (e.g., “1/2 beer for birthday”), through heavy drinking (e.g., “3 16oz
 beer, 1 shot hard alcohol, 1 mixed drink”), out to dangerous quantities
 (e.g., “6pk beer &amp; 1/2 gal. rum”). All entries were converted to
-standard drinks using information at the <a href="https://www.niaaa.nih.gov/alcohols-effects-health/overview-alcohol-consumption/what-standard-drink" class="external-link">National
+standard drinks using information at the <a href="https://www.niaaa.nih.gov/alcohols-effects-health/what-standard-drink" class="external-link">National
 Institute on Alcohol Abuse and Alcoholism</a>, Wikipedia. Bartending
-references were used to <a href="https://www.thespruceeats.com/how-many-shots-in-a-bottle-761232" class="external-link">estimate
-the number of shots contained in larger containers</a>. Ambiguous
-entries like “many glasses of wine” were coded as five standard drinks.
-For women, between half a standard drink to less than four standard
-drinks was considered light drinking for a day. For men, half a standard
-drink to less than five was considered light drinking for a day. In
-ctn_0027 less than eight people were marked as drinking something on a
-particular day but no details were provided. The drinking records for
-each person were reviewed. Four people had <em>no other of alcohol
-use</em>, so these records were dropped. Three others had a history of
-light alcohol use so problematic days were marked as light drinking and
-one person had an unambiguous history of very heavy drinking, therefore
-the unknown day was marked as heavy drinking.</p>
-<p>See <a href="../html/all_drugs.html">all_drugs</a> for additional
+references were used to estimate the number of shots contained in larger
+containers
+(<code>https://www.thespruceeats.com/how-many-shots-in-a-bottle-761232</code>).
+Ambiguous entries like “many glasses of wine” were coded as five
+standard drinks. For women, between half a standard drink to less than
+four standard drinks was considered light drinking for a day. For men,
+half a standard drink to less than five was considered light drinking
+for a day. In ctn_0027 less than eight people were marked as drinking
+something on a particular day but no details were provided. The drinking
+records for each person were reviewed. Four people had <em>no other of
+alcohol use</em>, so these records were dropped. Three others had a
+history of light alcohol use so problematic days were marked as light
+drinking and one person had an unambiguous history of very heavy
+drinking, therefore the unknown day was marked as heavy drinking.</p>
+<p>See <code><a href="../reference/all_drugs.html">public.ctn0094data::all_drugs</a></code> for additional
 details/information.</p>
 </div>
 </div>
 <div class="section level2">
 <h2 id="the-asi-dataset">The <code>asi</code> dataset<a class="anchor" aria-label="anchor" href="#the-asi-dataset"></a>
 </h2>
-<p>See <a href="../html/asi.html">asi</a> for details/information.</p>
-</div>
-<div class="section level2">
-<h2 id="the-days-dataset">The <code>days</code> dataset<a class="anchor" aria-label="anchor" href="#the-days-dataset"></a>
-</h2>
-<p>See <a href="../html/days.html">days</a> for details/information.</p>
+<p>See <code><a href="../reference/asi.html">public.ctn0094data::asi</a></code> for details/information.</p>
+<!-- # The `days` dataset
+NOTE FROM KYLE: cannot find reference to this dataset documentation
+See `public.ctn0094data::days` for details/information. -->
 </div>
 <div class="section level2">
 <h2 id="the-demographics-dataset">The <code>demographics</code> dataset<a class="anchor" aria-label="anchor" href="#the-demographics-dataset"></a>
 </h2>
-<p>See <a href="../html/demographics.html">demographics</a> for
+<p>See <code><a href="../reference/demographics.html">public.ctn0094data::demographics</a></code> for
 details/information.</p>
 </div>
 <div class="section level2">
 <h2 id="the-detox-dataset">The <code>detox</code> dataset<a class="anchor" aria-label="anchor" href="#the-detox-dataset"></a>
 </h2>
-<p>See <a href="../html/detox.html">detox</a> for
+<p>See <code><a href="../reference/detox.html">public.ctn0094data::detox</a></code> for
 details/information.</p>
 </div>
 <div class="section level2">
 <h2 id="the-everybody-dataset">The <code>everybody</code> dataset<a class="anchor" aria-label="anchor" href="#the-everybody-dataset"></a>
 </h2>
-<p>See <a href="../html/everybody.html">everybody</a> for
+<p>See <code><a href="../reference/everybody.html">public.ctn0094data::everybody</a></code> for
 details/information.</p>
 </div>
 <div class="section level2">
@@ -620,13 +620,13 @@ details/information.</p>
 scored as being smokers or nonsmokers (in the past 30 days). ctn_0051
 assessed current smoking and the Fagerstrom Test For Nicotine Dependence
 Score.</p>
-<p>See <a href="../html/fagerstrom.html">fagerstrom</a> for additional
+<p>See <code><a href="../reference/fagerstrom.html">public.ctn0094data::fagerstrom</a></code> for additional
 details/information.</p>
 </div>
 <div class="section level2">
 <h2 id="the-first_survey-dataset">The <code>first_survey</code> dataset<a class="anchor" aria-label="anchor" href="#the-first_survey-dataset"></a>
 </h2>
-<p>See <a href="../html/first_survey.html">first_survey</a> for
+<p>See <code><a href="../reference/first_survey.html">public.ctn0094data::first_survey</a></code> for
 details/information.</p>
 </div>
 <div class="section level2">
@@ -709,7 +709,7 @@ diagnosis of dependency on opiates.</p>
 <div class="section level2">
 <h2 id="the-randomization-dataset">The <code>randomization</code> dataset<a class="anchor" aria-label="anchor" href="#the-randomization-dataset"></a>
 </h2>
-<p>See <a href="../html/randomization.html">randomization</a> for
+<p>See <code><a href="../reference/randomization.html">public.ctn0094data::randomization</a></code> for
 details/information.</p>
 </div>
 <div class="section level2">
@@ -751,19 +751,19 @@ Table 3: Estimated Days of Drug Use Based on ctn_0051 Categories
 <div class="section level2">
 <h2 id="the-rbs_iv-dataset">The <code>rbs_iv</code> dataset<a class="anchor" aria-label="anchor" href="#the-rbs_iv-dataset"></a>
 </h2>
-<p>See <a href="../html/rbs_iv.html">rbs_iv</a> for
+<p>See <code><a href="../reference/rbs_iv.html">public.ctn0094data::rbs_iv</a></code> for
 details/information.</p>
 </div>
 <div class="section level2">
 <h2 id="the-screening_date-dataset">The <code>screening_date</code> dataset<a class="anchor" aria-label="anchor" href="#the-screening_date-dataset"></a>
 </h2>
-<p>See <a href="../html/screening_date.html">screening_date</a> for
+<p>See <code><a href="../reference/screening_date.html">public.ctn0094data::screening_date</a></code> for
 details/information.</p>
 </div>
 <div class="section level2">
 <h2 id="the-sex-dataset">The <code>sex</code> dataset<a class="anchor" aria-label="anchor" href="#the-sex-dataset"></a>
 </h2>
-<p>See <a href="../html/sex.html">sex</a> for details/information.</p>
+<p>See <code><a href="../reference/sex.html">public.ctn0094data::sex</a></code> for details/information.</p>
 </div>
 <div class="section level2">
 <h2 id="tlfb">The <code>tlfb</code> dataset<a class="anchor" aria-label="anchor" href="#tlfb"></a>
@@ -1356,7 +1356,7 @@ label them as “severe”.</p>
 <div class="section level2">
 <h2 id="the-withdrawal_pre_post-dataset">The <code>withdrawal_pre_post</code> dataset<a class="anchor" aria-label="anchor" href="#the-withdrawal_pre_post-dataset"></a>
 </h2>
-<p>See <a href="../html/withdrawal_pre_post.html">withdrawal_pre_post</a> for
+<p>See <code><a href="../reference/withdrawal_pre_post.html">public.ctn0094data::withdrawal_pre_post</a></code> for
 details/information.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/sessionInfo.html" class="external-link">sessionInfo</a></span><span class="op">(</span><span class="op">)</span></span>
@@ -1392,7 +1392,7 @@ details/information.</p>
 <span><span class="co">#&gt; [16] evaluate_1.0.5           jquerylib_0.1.4          fastmap_1.2.0           </span></span>
 <span><span class="co">#&gt; [19] yaml_2.3.12              lifecycle_1.0.5          stringr_1.6.0           </span></span>
 <span><span class="co">#&gt; [22] compiler_4.5.2           RColorBrewer_1.1-3       fs_1.6.6                </span></span>
-<span><span class="co">#&gt; [25] htmlwidgets_1.6.4        public.ctn0094data_1.0.6 rstudioapi_0.18.0       </span></span>
+<span><span class="co">#&gt; [25] htmlwidgets_1.6.4        public.ctn0094data_1.1.0 rstudioapi_0.18.0       </span></span>
 <span><span class="co">#&gt; [28] farver_2.1.2             systemfonts_1.3.1        digest_0.6.39           </span></span>
 <span><span class="co">#&gt; [31] viridisLite_0.4.2        R6_2.6.1                 magrittr_2.0.4          </span></span>
 <span><span class="co">#&gt; [34] bslib_0.10.0             tools_4.5.2              xml2_1.5.2              </span></span>
@@ -1405,7 +1405,7 @@ details/information.</p>
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by <a href="https://github.com/RaymondBalise" class="external-link">Raymond Balise</a>, <a href="https://gabriel.quarto.pub/home/" class="external-link">Gabriel Odom</a>, Anna Calderon.</p>
+  <p>Developed by <a href="https://github.com/RaymondBalise" class="external-link">Raymond Balise</a>, <a href="https://gabriel.quarto.pub/home/" class="external-link">Gabriel Odom</a>, Anna Calderon, <a href="https://github.com/kyleGrealis" class="external-link">Kyle Grealis</a>, Michael Ackerman.</p>
 </div>
 
 <div class="pkgdown-footer-right">

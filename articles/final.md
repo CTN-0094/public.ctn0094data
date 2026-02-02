@@ -47,7 +47,7 @@ trials
     #> [1] stats     graphics  grDevices utils     datasets  methods   base     
     #> 
     #> other attached packages:
-    #>  [1] public.ctn0094data_1.0.6 psych_2.5.6              infer_1.1.0             
+    #>  [1] public.ctn0094data_1.1.0 psych_2.5.6              infer_1.1.0             
     #>  [4] janitor_2.2.1            kableExtra_1.4.0         broom_1.0.12            
     #>  [7] DiagrammeR_1.0.11        table1_1.5.1             ggthemes_5.2.0          
     #> [10] forcats_1.0.1            tibble_3.3.1             ggplot2_4.0.1           

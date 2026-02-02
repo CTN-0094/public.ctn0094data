@@ -7,7 +7,7 @@ problematic values in the trial data. Every dataset in this package has
 its own documentation. To help protect the anonymity of the study
 participants two steps were taken. First, the study site information was
 modified (see the documentation for
-[site_masked](https://ctn-0094.github.io/public.ctn0094data/html/site_masked.md)
+[`public.ctn0094data::site_masked`](https://ctn-0094.github.io/public.ctn0094data/reference/site_masked.md)
 for details). Second, all dates have been replace by the number of days
 relative to study consent. Therefore, some information, like the day of
 drug use in the month before enrollment is stored as negative numbers.
@@ -16,15 +16,17 @@ Section headings correspond to data sets.
 
 ## The `all_drugs` dataset
 
-The `all_drugs` dataset is an agglomeration of all self-reported drugs,
-drugs found in urine drug screening and alcohol screening in ctn_0027,
-ctn_0030, and ctn_0051. This data is the result of extensive
-preprocessing of free text to harmonize drug names, but drugs were not
-collapsed into groups. For example, the many descriptions,
-abbreviations, and spellings of variants of suboxone (e.g., “street
-suboxone”, “bup/nx”, “buxnx”, “bupnx”, “pbupnx”, “bupxx”) were
-harmonized into a single “suboxone” group but suboxone was not collapsed
-with other buprenorphine formulations.
+The
+[`public.ctn0094data::all_drugs`](https://ctn-0094.github.io/public.ctn0094data/reference/all_drugs.md)
+dataset is an agglomeration of all self-reported drugs, drugs found in
+urine drug screening and alcohol screening in ctn_0027, ctn_0030, and
+ctn_0051. This data is the result of extensive preprocessing of free
+text to harmonize drug names, but drugs were not collapsed into groups.
+For example, the many descriptions, abbreviations, and spellings of
+variants of suboxone (e.g., “street suboxone”, “bup/nx”, “buxnx”,
+“bupnx”, “pbupnx”, “bupxx”) were harmonized into a single “suboxone”
+group but suboxone was not collapsed with other buprenorphine
+formulations.
 
 While there were **many** spellings and text variants (including mg and
 location where drug was administered), the list in [Table 1](#tab:final)
@@ -122,14 +124,15 @@ Self-reported drug information in the TLFB in ctn_0027 allowed for
 free-text entry of any substance. The TLFB for ctn_0030 and ctn_0051
 used structured questions to assess the use of alcohol and drugs.
 Specifically, the TLFB for ctn_0030 only checked for these drugs listed
-in [Table 2](#ctn3051tlfb). It allowed for ***free-text entry of only
-other opiates***, all other abused substances are unknown. Frequently
-appearing “other opiates” included “Suboxone”, “Buprenorphine”,
-“Darvocet” and “Fentanyl.” CTN-51 used the more comprehensive set of
-drugs listed in [Table 2](#ctn3051tlfb) and it allowed for up to two
-additional drugs per day. Frequently occurring free text drugs from
-ctn_0051 included: Fioricet, Adderall, Baclofen, K2/Spice, Codeine,
-Fentanyl, Kratom, Bath Salts, Gabapentin, PCP, and Ambien.
+in [Table 2](#tab:ctn3051tlfb). It allowed for ***free-text entry of
+only other opiates***, all other abused substances are unknown.
+Frequently appearing “other opiates” included “Suboxone”,
+“Buprenorphine”, “Darvocet” and “Fentanyl.” CTN-51 used the more
+comprehensive set of drugs listed in [Table 2](#tab:ctn3051tlfb) and it
+allowed for up to two additional drugs per day. Frequently occurring
+free text drugs from ctn_0051 included: Fioricet, Adderall, Baclofen,
+K2/Spice, Codeine, Fentanyl, Kratom, Bath Salts, Gabapentin, PCP, and
+Ambien.
 
 Table 2: Drugs Assessed by ctn_0030 and ctn_0051 Timeline Followback
 Questionnaires.
@@ -166,7 +169,7 @@ data after the last date with treatment drug which included their
 treatment medication (buprenorphine).
 
 See
-[all_drugs](https://ctn-0094.github.io/public.ctn0094data/html/all_drugs.md)
+[`public.ctn0094data::all_drugs`](https://ctn-0094.github.io/public.ctn0094data/reference/all_drugs.md)
 for additional details/information.
 
 #### Buprenorphine Details
@@ -204,10 +207,10 @@ beer, 1 shot hard alcohol, 1 mixed drink”), out to dangerous quantities
 (e.g., “6pk beer & 1/2 gal. rum”). All entries were converted to
 standard drinks using information at the [National Institute on Alcohol
 Abuse and
-Alcoholism](https://www.niaaa.nih.gov/alcohols-effects-health/overview-alcohol-consumption/what-standard-drink),
-Wikipedia. Bartending references were used to [estimate the number of
-shots contained in larger
-containers](https://www.thespruceeats.com/how-many-shots-in-a-bottle-761232).
+Alcoholism](https://www.niaaa.nih.gov/alcohols-effects-health/what-standard-drink),
+Wikipedia. Bartending references were used to estimate the number of
+shots contained in larger containers
+(`https://www.thespruceeats.com/how-many-shots-in-a-bottle-761232`).
 Ambiguous entries like “many glasses of wine” were coded as five
 standard drinks. For women, between half a standard drink to less than
 four standard drinks was considered light drinking for a day. For men,
@@ -221,34 +224,31 @@ and one person had an unambiguous history of very heavy drinking,
 therefore the unknown day was marked as heavy drinking.
 
 See
-[all_drugs](https://ctn-0094.github.io/public.ctn0094data/html/all_drugs.md)
+[`public.ctn0094data::all_drugs`](https://ctn-0094.github.io/public.ctn0094data/reference/all_drugs.md)
 for additional details/information.
 
 ## The `asi` dataset
 
-See [asi](https://ctn-0094.github.io/public.ctn0094data/html/asi.md) for
-details/information.
-
-## The `days` dataset
-
-See [days](https://ctn-0094.github.io/public.ctn0094data/html/days.md)
+See
+[`public.ctn0094data::asi`](https://ctn-0094.github.io/public.ctn0094data/reference/asi.md)
 for details/information.
 
 ## The `demographics` dataset
 
 See
-[demographics](https://ctn-0094.github.io/public.ctn0094data/html/demographics.md)
+[`public.ctn0094data::demographics`](https://ctn-0094.github.io/public.ctn0094data/reference/demographics.md)
 for details/information.
 
 ## The `detox` dataset
 
-See [detox](https://ctn-0094.github.io/public.ctn0094data/html/detox.md)
+See
+[`public.ctn0094data::detox`](https://ctn-0094.github.io/public.ctn0094data/reference/detox.md)
 for details/information.
 
 ## The `everybody` dataset
 
 See
-[everybody](https://ctn-0094.github.io/public.ctn0094data/html/everybody.md)
+[`public.ctn0094data::everybody`](https://ctn-0094.github.io/public.ctn0094data/reference/everybody.md)
 for details/information.
 
 ## The `fagerstrom` dataset
@@ -258,13 +258,13 @@ as being smokers or nonsmokers (in the past 30 days). ctn_0051 assessed
 current smoking and the Fagerstrom Test For Nicotine Dependence Score.
 
 See
-[fagerstrom](https://ctn-0094.github.io/public.ctn0094data/html/fagerstrom.md)
+[`public.ctn0094data::fagerstrom`](https://ctn-0094.github.io/public.ctn0094data/reference/fagerstrom.md)
 for additional details/information.
 
 ## The `first_survey` dataset
 
 See
-[first_survey](https://ctn-0094.github.io/public.ctn0094data/html/first_survey.md)
+[`public.ctn0094data::first_survey`](https://ctn-0094.github.io/public.ctn0094data/reference/first_survey.md)
 for details/information.
 
 ## The `pain` dataset
@@ -309,7 +309,7 @@ diagnosis of dependency on opiates.
 ## The `randomization` dataset
 
 See
-[randomization](https://ctn-0094.github.io/public.ctn0094data/html/randomization.md)
+[`public.ctn0094data::randomization`](https://ctn-0094.github.io/public.ctn0094data/reference/randomization.md)
 for details/information.
 
 ## The `rbs` dataset
@@ -332,19 +332,20 @@ Table 3: Estimated Days of Drug Use Based on ctn_0051 Categories
 ## The `rbs_iv` dataset
 
 See
-[rbs_iv](https://ctn-0094.github.io/public.ctn0094data/html/rbs_iv.md)
+[`public.ctn0094data::rbs_iv`](https://ctn-0094.github.io/public.ctn0094data/reference/rbs_iv.md)
 for details/information.
 
 ## The `screening_date` dataset
 
 See
-[screening_date](https://ctn-0094.github.io/public.ctn0094data/html/screening_date.md)
+[`public.ctn0094data::screening_date`](https://ctn-0094.github.io/public.ctn0094data/reference/screening_date.md)
 for details/information.
 
 ## The `sex` dataset
 
-See [sex](https://ctn-0094.github.io/public.ctn0094data/html/sex.md) for
-details/information.
+See
+[`public.ctn0094data::sex`](https://ctn-0094.github.io/public.ctn0094data/reference/sex.md)
+for details/information.
 
 ## The `tlfb` dataset
 
@@ -547,7 +548,7 @@ Subjective Opiate Withdrawal Scale (SOWS)
 ## The `withdrawal_pre_post` dataset
 
 See
-[withdrawal_pre_post](https://ctn-0094.github.io/public.ctn0094data/html/withdrawal_pre_post.md)
+[`public.ctn0094data::withdrawal_pre_post`](https://ctn-0094.github.io/public.ctn0094data/reference/withdrawal_pre_post.md)
 for details/information.
 
 ``` r
@@ -584,7 +585,7 @@ sessionInfo()
 #> [16] evaluate_1.0.5           jquerylib_0.1.4          fastmap_1.2.0           
 #> [19] yaml_2.3.12              lifecycle_1.0.5          stringr_1.6.0           
 #> [22] compiler_4.5.2           RColorBrewer_1.1-3       fs_1.6.6                
-#> [25] htmlwidgets_1.6.4        public.ctn0094data_1.0.6 rstudioapi_0.18.0       
+#> [25] htmlwidgets_1.6.4        public.ctn0094data_1.1.0 rstudioapi_0.18.0       
 #> [28] farver_2.1.2             systemfonts_1.3.1        digest_0.6.39           
 #> [31] viridisLite_0.4.2        R6_2.6.1                 magrittr_2.0.4          
 #> [34] bslib_0.10.0             tools_4.5.2              xml2_1.5.2              
