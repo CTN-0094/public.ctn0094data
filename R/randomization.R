@@ -44,7 +44,7 @@
 #' | _Type:_        | integer       |
 #' | -------------- | ------------- |
 #' |                |               |
-#' | _Description:_ | Study day |
+#' | _Description:_ | Study day of treatment entry |
 #'
 #'  }
 #'  }

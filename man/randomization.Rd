@@ -40,7 +40,7 @@ A tibble with 4,691 rows and
 \item{\strong{when}}{\tabular{ll}{
    \emph{Type:} \tab integer \cr
     \tab  \cr
-   \emph{Description:} \tab Study day \cr
+   \emph{Description:} \tab Study day of treatment entry \cr
 }
 
 
