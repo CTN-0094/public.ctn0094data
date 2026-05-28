@@ -32,153 +32,153 @@ A tibble with 3,560 rows and 16 variables:
 
 - **has_schizophrenia**:
 
-  |                |                                                                   |
-  |----------------|-------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = No)                               |
-  |                |                                                                   |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = No) |
+  |  |  |
   | *Description:* | Medical and psychiatric history interview indicates schizophrenia |
-  |                |                                                                   |
-  | *Levels:*      | No, Yes                                                           |
+  |  |  |
+  | *Levels:* | No, Yes |
 
 - **has_major_dep**:
 
-  |                |                                                                      |
-  |----------------|----------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = No)                                  |
-  |                |                                                                      |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = No) |
+  |  |  |
   | *Description:* | Medical and psychiatric history interview indicates major depression |
-  |                |                                                                      |
-  | *Levels:*      | No, Yes                                                              |
+  |  |  |
+  | *Levels:* | No, Yes |
 
 - **has_bipolar**:
 
-  |                |                                                                      |
-  |----------------|----------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = No)                                  |
-  |                |                                                                      |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = No) |
+  |  |  |
   | *Description:* | Medical and psychiatric history interview indicates bipolar disorder |
-  |                |                                                                      |
-  | *Levels:*      | No, Yes                                                              |
+  |  |  |
+  | *Levels:* | No, Yes |
 
 - **has_anx_pan**:
 
-  |                |                                                                            |
-  |----------------|----------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = No)                                        |
-  |                |                                                                            |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = No) |
+  |  |  |
   | *Description:* | Medical and psychiatric history interview indicates anxiety panic disorder |
-  |                |                                                                            |
-  | *Levels:*      | No, Yes                                                                    |
+  |  |  |
+  | *Levels:* | No, Yes |
 
 - **has_brain_damage**:
 
-  |                |                                                                  |
-  |----------------|------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = No)                              |
-  |                |                                                                  |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = No) |
+  |  |  |
   | *Description:* | Medical and psychiatric history interview indicates brain damage |
-  |                |                                                                  |
-  | *Levels:*      | No, Yes                                                          |
+  |  |  |
+  | *Levels:* | No, Yes |
 
 - **has_epilepsy**:
 
-  |                |                                                              |
-  |----------------|--------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = No)                          |
-  |                |                                                              |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = No) |
+  |  |  |
   | *Description:* | Medical and psychiatric history interview indicates epilepsy |
-  |                |                                                              |
-  | *Levels:*      | No, Yes                                                      |
+  |  |  |
+  | *Levels:* | No, Yes |
 
 - **depression**:
 
-  |                |                                                                                                                                                                                                  |
-  |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = Yes)                                                                                                                                                             |
-  |                |                                                                                                                                                                                                  |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = Yes) |
+  |  |  |
   | *Description:* | Addiction Severity Index-Lite Follow-up depression: P4 = "Experienced serious depression-sadness, hopelessness, loss of interest, difficulty with daily function?" See the Details section below |
-  |                |                                                                                                                                                                                                  |
-  | *Levels:*      | Yes, No, Not answered, Missing,                                                                                                                                                                  |
+  |  |  |
+  | *Levels:* | Yes, No, Not answered, Missing, |
 
 - **anxiety**:
 
-  |                |                                                                                                                                                                                      |
-  |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = Yes)                                                                                                                                                 |
-  |                |                                                                                                                                                                                      |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = Yes) |
+  |  |  |
   | *Description:* | Addiction Severity Index-Lite Follow-up anxiety: P5 = "Experienced serious anxiety/tension, uptight, unreasonably worried, inability to feel relaxed?" See the Details section below |
-  |                |                                                                                                                                                                                      |
-  | *Levels:*      | Yes, No, Not answered, Missing,                                                                                                                                                      |
+  |  |  |
+  | *Levels:* | Yes, No, Not answered, Missing, |
 
 - **schizophrenia**:
 
-  |                |                                                                                                                                                                                           |
-  |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = Yes)                                                                                                                                                      |
-  |                |                                                                                                                                                                                           |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = Yes) |
+  |  |  |
   | *Description:* | Addiction Severity Index-Lite Follow-up schizophrenia P6 = "Experienced hallucinations – saw things or heard voices that other people did not hear or see?" See the Details section below |
-  |                |                                                                                                                                                                                           |
-  | *Levels:*      | Yes, No, Not answered, Missing,                                                                                                                                                           |
+  |  |  |
+  | *Levels:* | Yes, No, Not answered, Missing, |
 
 - **has_opiates_dx**:
 
-  |                |                                                                                           |
-  |----------------|-------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = No)                                                       |
-  |                |                                                                                           |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = No) |
+  |  |  |
   | *Description:* | DSM-4 opioid abuse or dependence diagnosis or DSM-5 "opioid use disorder" (OUD) diagnosis |
-  |                |                                                                                           |
-  | *Levels:*      | No, Yes                                                                                   |
+  |  |  |
+  | *Levels:* | No, Yes |
 
 - **has_alcol_dx**:
 
-  |                |                                                                                             |
-  |----------------|---------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = No)                                                         |
-  |                |                                                                                             |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = No) |
+  |  |  |
   | *Description:* | DSM-4 alcohol abuse or dependence diagnosis or DSM-5 "alcohol use disorder" (AUD) diagnosis |
-  |                |                                                                                             |
-  | *Levels:*      | No, Yes                                                                                     |
+  |  |  |
+  | *Levels:* | No, Yes |
 
 - **has_amphetamines_dx**:
 
-  |                |                                                                                                                               |
-  |----------------|-------------------------------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = No)                                                                                           |
-  |                |                                                                                                                               |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = No) |
+  |  |  |
   | *Description:* | DSM-4 amphetamine and similar sympathomimetics abuse or dependence diagnosis or DSM-5 amphetamine-type substance use disorder |
-  |                |                                                                                                                               |
-  | *Levels:*      | No, Yes                                                                                                                       |
+  |  |  |
+  | *Levels:* | No, Yes |
 
 - **has_cannabis_dx**:
 
-  |                |                                                                             |
-  |----------------|-----------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = No)                                         |
-  |                |                                                                             |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = No) |
+  |  |  |
   | *Description:* | DSM-4 cannabis abuse or dependence diagnosis or DSM-5 cannabis use disorder |
-  |                |                                                                             |
-  | *Levels:*      | No, Yes                                                                     |
+  |  |  |
+  | *Levels:* | No, Yes |
 
 - **has_cocaine_dx**:
 
-  |                |                                                                           |
-  |----------------|---------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = No)                                       |
-  |                |                                                                           |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = No) |
+  |  |  |
   | *Description:* | DSM-4 cocaine abuse or dependence diagnosis or DSM-5 cocaine use disorder |
-  |                |                                                                           |
-  | *Levels:*      | No, Yes                                                                   |
+  |  |  |
+  | *Levels:* | No, Yes |
 
 - **has_sedatives_dx**:
 
-  |                |                                                                                                  |
-  |----------------|--------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = No)                                                              |
-  |                |                                                                                                  |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = No) |
+  |  |  |
   | *Description:* | DSM-4 sedatives abuse or dependence diagnosis or DSM-5 sedative hypnotic/anxiolytic use disorder |
-  |                |                                                                                                  |
-  | *Levels:*      | No, Yes                                                                                          |
+  |  |  |
+  | *Levels:* | No, Yes |
 
 ## Source
 

@@ -38,13 +38,13 @@ A tibble with 16 rows and 6 variables:
 
 - **stage**:
 
-  |                |                                                                                           |
-  |----------------|-------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = 1)                                                        |
-  |                |                                                                                           |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = 1) |
+  |  |  |
   | *Description:* | Treatment stage used with `description` to capture different treatment phase/stage/period |
-  |                |                                                                                           |
-  | *Levels:*      | 1, 2, 3                                                                                   |
+  |  |  |
+  | *Levels:* | 1, 2, 3 |
 
 - **weeks**:
 
@@ -56,10 +56,10 @@ A tibble with 16 rows and 6 variables:
 
 - **description**:
 
-  |                |                                                                                                                     |
-  |----------------|---------------------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = Buprenorphine-naloxone stabilization)                                               |
-  |                |                                                                                                                     |
-  | *Description:* | Description of the treatment duration                                                                               |
-  |                |                                                                                                                     |
-  | *Levels:*      | Buprenorphine-naloxone stabilization, Buprenorphine-naloxone treatment, Post-medication follow-up, Taper, Treatment |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = Buprenorphine-naloxone stabilization) |
+  |  |  |
+  | *Description:* | Description of the treatment duration |
+  |  |  |
+  | *Levels:* | Buprenorphine-naloxone stabilization, Buprenorphine-naloxone treatment, Post-medication follow-up, Taper, Treatment |

@@ -39,71 +39,71 @@ records: ‘Tryclic-antidepressant’ and ‘Antidepressant’.
 
 Table 1: Recoded Free Text Descriptions of Drugs.
 
-| Original Text                                                     | Final Text                                  |
-|:------------------------------------------------------------------|:--------------------------------------------|
-| ‘Acid’                                                            | ‘Hallucinogen’                              |
-| ‘Adderall’                                                        | ‘Amphetamine’                               |
-| ‘Ambien’                                                          | ‘Sedative-Hypnotic’                         |
-| ‘Amitiptyline & Trazadone’                                        | ‘Tryclic-antidepressant’ & ‘Antidepressant’ |
-| ‘Angel Dust’                                                      | ‘PCP’                                       |
-| ‘Ativan’                                                          | ‘Benzodiazepine’                            |
-| ‘Baclofen’                                                        | ‘Muscle Relaxant’                           |
-| ‘Bath Salts’                                                      | ‘Cathinones’                                |
-| ‘Bup/Nx & Tramadol’                                               | ‘Suboxone’ & ‘Tramadol’                     |
-| ‘Cannabinoids’                                                    | ‘THC’                                       |
-| ‘Carisoprodol’                                                    | ‘Muscle Relaxant’                           |
-| ‘Darvocet’                                                        | ‘Propoxyphene’ & ‘Acetaminophen’            |
-| ‘DXM’                                                             | ‘Dextromethorphan’                          |
-| ‘Dust’                                                            | ‘PCP’                                       |
-| ‘Ecstasy’                                                         | ‘MDMA’                                      |
-| ‘Fioricet’                                                        | ‘Barbiturate’ & ‘Caffeine’                  |
-| ‘Flexeral’                                                        | ‘Muscle Relaxant’                           |
-| ‘Hallucinogens inc mdma’                                          | ‘Hallucinogen’ & ‘MDMA’                     |
-| ‘Heroin/Opium’                                                    | ‘Heroin’ & ‘Opium’                          |
-| ‘Hydroxyzin’                                                      | ‘Antihistamine’                             |
-| ‘Keflex’                                                          | ‘Antibiotic’                                |
-| ‘Klonopin’                                                        | ‘Benzodiazepine’                            |
-| ‘Librium Detox’                                                   | ‘Benzodiazepine’                            |
-| ‘LSD’                                                             | ‘Hallucinogen’                              |
-| ‘Lunesta’                                                         | ‘Sedative-Hypnotic’                         |
-| ‘Marijuana’                                                       | ‘THC’                                       |
-| ‘Meth’                                                            | ‘Methamphetamine’                           |
-| ‘Ms Contin’                                                       | ‘Morphine’                                  |
-| ‘Mushroom’                                                        | ‘Hallucinogen’                              |
-| ‘Neurotin’                                                        | ‘Gabapentin’                                |
-| ‘Norco’                                                           | ‘Hydrocodone’ & ‘Acetaminophen’             |
-| ‘Participant Was Unsure Whether She Took A Percocet Or A Vicodin’ | ‘Opioid’                                    |
-| ‘Penicilin (Not Ppt Rx)’                                          | ‘Antibiotic’                                |
-| ‘Penicillin - Mushrooms (Psilocybin)’                             | ‘Hallucinogen’                              |
-| ‘Soma Codeine’                                                    | ‘Muscle Relaxant’ & ‘Codeine’               |
-| ‘Somas’                                                           | ‘Muscle Relaxant’                           |
-| ‘Percocets And Vicodin’                                           | ‘Oxycodone’ & ‘Hydrocodone’                 |
-| ‘Percoset’                                                        | ‘Hydrocodone’                               |
-| ‘Phenagrin’                                                       | ‘Antiemetic’                                |
-| ‘Phenergran With Codeine’                                         | ‘Antiemetic’ & ‘Codeine’                    |
-| ‘Phenobarbi’                                                      | ‘Barbiturate’                               |
-| ‘Promethazine, Clonidine’                                         | ‘Antiemetic’ & ‘Clonidine’                  |
-| ‘Quetiapine’                                                      | ‘Antipsychotic’                             |
-| ‘Remeron’                                                         | ‘Antidepressant’                            |
-| ‘Ritalin’                                                         | ‘Methylphenidate’                           |
-| ‘Seroquel’                                                        | ‘Antipsychotic’                             |
-| ‘Sleeping Pill’                                                   | ‘Sedative-Hypnotic’                         |
-| ‘Snow’                                                            | ‘Cathinones’                                |
-| ‘Speed’                                                           | ‘Amphetamine’                               |
-| ‘Speed Ball’                                                      | ‘Heroin’ & ‘Cocaine’                        |
-| ’Spice                                                            | ‘K2’                                        |
-| ‘Subutex’                                                         | ‘Buprenorphine’                             |
-| ‘Sudafed’                                                         | ‘Pseuedoephidrine’                          |
-| ‘Tranquilizers’                                                   | ‘Sedative-Hypnotic’                         |
-| ‘Trazodone(Desyrel)’                                              | ‘Trazodone’                                 |
-| ‘Tylonol 3’                                                       | ‘Codeine’ & ‘Acetaminophen’                 |
-| ‘Tylenol PM’                                                      | ‘Acetaminophen’ & ‘Benadryl’                |
-| ‘Ultracet’                                                        | ‘Tramadol’ & ‘Acetaminophen’                |
-| ‘Valium’                                                          | ‘Benzodiazepine’                            |
-| ‘Vicodin’                                                         | ‘Hydrocodone’                               |
-| ‘Vistaril’                                                        | ‘Antihistamine’                             |
-| ‘Wet (Pcp)’                                                       | ‘PCP’                                       |
-| ‘Zolpidem’                                                        | ‘Sedative-Hypnotic’                         |
+| Original Text | Final Text |
+|:---|:---|
+| ‘Acid’ | ‘Hallucinogen’ |
+| ‘Adderall’ | ‘Amphetamine’ |
+| ‘Ambien’ | ‘Sedative-Hypnotic’ |
+| ‘Amitiptyline & Trazadone’ | ‘Tryclic-antidepressant’ & ‘Antidepressant’ |
+| ‘Angel Dust’ | ‘PCP’ |
+| ‘Ativan’ | ‘Benzodiazepine’ |
+| ‘Baclofen’ | ‘Muscle Relaxant’ |
+| ‘Bath Salts’ | ‘Cathinones’ |
+| ‘Bup/Nx & Tramadol’ | ‘Suboxone’ & ‘Tramadol’ |
+| ‘Cannabinoids’ | ‘THC’ |
+| ‘Carisoprodol’ | ‘Muscle Relaxant’ |
+| ‘Darvocet’ | ‘Propoxyphene’ & ‘Acetaminophen’ |
+| ‘DXM’ | ‘Dextromethorphan’ |
+| ‘Dust’ | ‘PCP’ |
+| ‘Ecstasy’ | ‘MDMA’ |
+| ‘Fioricet’ | ‘Barbiturate’ & ‘Caffeine’ |
+| ‘Flexeral’ | ‘Muscle Relaxant’ |
+| ‘Hallucinogens inc mdma’ | ‘Hallucinogen’ & ‘MDMA’ |
+| ‘Heroin/Opium’ | ‘Heroin’ & ‘Opium’ |
+| ‘Hydroxyzin’ | ‘Antihistamine’ |
+| ‘Keflex’ | ‘Antibiotic’ |
+| ‘Klonopin’ | ‘Benzodiazepine’ |
+| ‘Librium Detox’ | ‘Benzodiazepine’ |
+| ‘LSD’ | ‘Hallucinogen’ |
+| ‘Lunesta’ | ‘Sedative-Hypnotic’ |
+| ‘Marijuana’ | ‘THC’ |
+| ‘Meth’ | ‘Methamphetamine’ |
+| ‘Ms Contin’ | ‘Morphine’ |
+| ‘Mushroom’ | ‘Hallucinogen’ |
+| ‘Neurotin’ | ‘Gabapentin’ |
+| ‘Norco’ | ‘Hydrocodone’ & ‘Acetaminophen’ |
+| ‘Participant Was Unsure Whether She Took A Percocet Or A Vicodin’ | ‘Opioid’ |
+| ‘Penicilin (Not Ppt Rx)’ | ‘Antibiotic’ |
+| ‘Penicillin - Mushrooms (Psilocybin)’ | ‘Hallucinogen’ |
+| ‘Soma Codeine’ | ‘Muscle Relaxant’ & ‘Codeine’ |
+| ‘Somas’ | ‘Muscle Relaxant’ |
+| ‘Percocets And Vicodin’ | ‘Oxycodone’ & ‘Hydrocodone’ |
+| ‘Percoset’ | ‘Hydrocodone’ |
+| ‘Phenagrin’ | ‘Antiemetic’ |
+| ‘Phenergran With Codeine’ | ‘Antiemetic’ & ‘Codeine’ |
+| ‘Phenobarbi’ | ‘Barbiturate’ |
+| ‘Promethazine, Clonidine’ | ‘Antiemetic’ & ‘Clonidine’ |
+| ‘Quetiapine’ | ‘Antipsychotic’ |
+| ‘Remeron’ | ‘Antidepressant’ |
+| ‘Ritalin’ | ‘Methylphenidate’ |
+| ‘Seroquel’ | ‘Antipsychotic’ |
+| ‘Sleeping Pill’ | ‘Sedative-Hypnotic’ |
+| ‘Snow’ | ‘Cathinones’ |
+| ‘Speed’ | ‘Amphetamine’ |
+| ‘Speed Ball’ | ‘Heroin’ & ‘Cocaine’ |
+| ’Spice | ‘K2’ |
+| ‘Subutex’ | ‘Buprenorphine’ |
+| ‘Sudafed’ | ‘Pseuedoephidrine’ |
+| ‘Tranquilizers’ | ‘Sedative-Hypnotic’ |
+| ‘Trazodone(Desyrel)’ | ‘Trazodone’ |
+| ‘Tylonol 3’ | ‘Codeine’ & ‘Acetaminophen’ |
+| ‘Tylenol PM’ | ‘Acetaminophen’ & ‘Benadryl’ |
+| ‘Ultracet’ | ‘Tramadol’ & ‘Acetaminophen’ |
+| ‘Valium’ | ‘Benzodiazepine’ |
+| ‘Vicodin’ | ‘Hydrocodone’ |
+| ‘Vistaril’ | ‘Antihistamine’ |
+| ‘Wet (Pcp)’ | ‘PCP’ |
+| ‘Zolpidem’ | ‘Sedative-Hypnotic’ |
 
 The timeline-followback (TLFB) data had many dozens of typos in dates.,
 nearly all of which could be fixed by looking at form completion dates
@@ -552,10 +552,11 @@ See
 for details/information.
 
 ``` r
+
 sessionInfo()
-#> R version 4.5.2 (2025-10-31)
+#> R version 4.6.0 (2026-04-24)
 #> Platform: x86_64-pc-linux-gnu
-#> Running under: Ubuntu 24.04.3 LTS
+#> Running under: Ubuntu 24.04.4 LTS
 #> 
 #> Matrix products: default
 #> BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
@@ -577,17 +578,18 @@ sessionInfo()
 #> [1] kableExtra_1.4.0
 #> 
 #> loaded via a namespace (and not attached):
-#>  [1] vctrs_0.7.1              svglite_2.2.2            cli_3.6.5               
-#>  [4] knitr_1.51               rlang_1.1.7              xfun_0.56               
-#>  [7] stringi_1.8.7            textshaping_1.0.4        jsonlite_2.0.0          
-#> [10] glue_1.8.0               htmltools_0.5.9          ragg_1.5.0              
-#> [13] sass_0.4.10              scales_1.4.0             rmarkdown_2.30          
-#> [16] evaluate_1.0.5           jquerylib_0.1.4          fastmap_1.2.0           
-#> [19] yaml_2.3.12              lifecycle_1.0.5          stringr_1.6.0           
-#> [22] compiler_4.5.2           RColorBrewer_1.1-3       fs_1.6.6                
-#> [25] htmlwidgets_1.6.4        public.ctn0094data_1.1.0 rstudioapi_0.18.0       
-#> [28] farver_2.1.2             systemfonts_1.3.1        digest_0.6.39           
-#> [31] viridisLite_0.4.2        R6_2.6.1                 magrittr_2.0.4          
-#> [34] bslib_0.10.0             tools_4.5.2              xml2_1.5.2              
-#> [37] pkgdown_2.2.0            cachem_1.1.0             desc_1.4.3
+#>  [1] vctrs_0.7.3              svglite_2.2.2            cli_3.6.6               
+#>  [4] knitr_1.51               rlang_1.2.0              xfun_0.57               
+#>  [7] stringi_1.8.7            otel_0.2.0               textshaping_1.0.5       
+#> [10] jsonlite_2.0.0           glue_1.8.1               htmltools_0.5.9         
+#> [13] ragg_1.5.2               sass_0.4.10              scales_1.4.0            
+#> [16] rmarkdown_2.31           evaluate_1.0.5           jquerylib_0.1.4         
+#> [19] fastmap_1.2.0            yaml_2.3.12              lifecycle_1.0.5         
+#> [22] stringr_1.6.0            compiler_4.6.0           RColorBrewer_1.1-3      
+#> [25] fs_2.1.0                 htmlwidgets_1.6.4        public.ctn0094data_1.1.0
+#> [28] rstudioapi_0.18.0        farver_2.1.2             systemfonts_1.3.2       
+#> [31] digest_0.6.39            viridisLite_0.4.3        R6_2.6.1                
+#> [34] magrittr_2.0.5           bslib_0.11.0             tools_4.6.0             
+#> [37] xml2_1.5.2               pkgdown_2.2.0            cachem_1.1.0            
+#> [40] desc_1.4.3
 ```

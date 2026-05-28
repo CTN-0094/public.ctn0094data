@@ -15,43 +15,43 @@ A tibble with 13 rows and 4 variables:
 
 - **Substance**:
 
-  |                |                                                                                                                                                                       |
-  |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = Alcohol)                                                                                                                              |
-  |                |                                                                                                                                                                       |
-  | *Description:* | substances screened by UDS per study; names drawn from trial case report forms                                                                                        |
-  |                |                                                                                                                                                                       |
-  | *Levels:*      | Alcohol, Amphetamine, Barbiturate, Benzodiazepine, Buprenorphine, Cannabinoids, Cocaine, Methadone, Methamphetamine, Opiate 2000, Opiate 300, Oxycodone, Propoxyphene |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = Alcohol) |
+  |  |  |
+  | *Description:* | substances screened by UDS per study; names drawn from trial case report forms |
+  |  |  |
+  | *Levels:* | Alcohol, Amphetamine, Barbiturate, Benzodiazepine, Buprenorphine, Cannabinoids, Cocaine, Methadone, Methamphetamine, Opiate 2000, Opiate 300, Oxycodone, Propoxyphene |
 
 - **CTN-0027**:
 
-  |                |                                                                                                               |
-  |----------------|---------------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = Alcohol)                                                                      |
-  |                |                                                                                                               |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = Alcohol) |
+  |  |  |
   | *Description:* | Derived label used to group substances of interest, or "NO" if the substance was not screened for in ctn_0027 |
-  |                |                                                                                                               |
-  | *Levels:*      | Alcohol, Amphetamine, Benzodiazepine, Cocaine, Methadone, NO, Opioid, THC                                     |
+  |  |  |
+  | *Levels:* | Alcohol, Amphetamine, Benzodiazepine, Cocaine, Methadone, NO, Opioid, THC |
 
 - **CTN-0030**:
 
-  |                |                                                                                                               |
-  |----------------|---------------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = Amphetamine)                                                                  |
-  |                |                                                                                                               |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = Amphetamine) |
+  |  |  |
   | *Description:* | Derived label used to group substances of interest, or "NO" if the substance was not screened for in ctn_0030 |
-  |                |                                                                                                               |
-  | *Levels:*      | Amphetamine, Benzodiazepine, Buprenorphine, Cocaine, Methadone, NO, Opioid, THC                               |
+  |  |  |
+  | *Levels:* | Amphetamine, Benzodiazepine, Buprenorphine, Cocaine, Methadone, NO, Opioid, THC |
 
 - **CTN-0051**:
 
-  |                |                                                                                                               |
-  |----------------|---------------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = Amphetamine)                                                                  |
-  |                |                                                                                                               |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = Amphetamine) |
+  |  |  |
   | *Description:* | Derived label used to group substances of interest, or "NO" if the substance was not screened for in ctn_0051 |
-  |                |                                                                                                               |
-  | *Levels:*      | Amphetamine, Barbiturate, Benzodiazepine, Buprenorphine, Cocaine, Methadone, NO, Opioid, THC                  |
+  |  |  |
+  | *Levels:* | Amphetamine, Barbiturate, Benzodiazepine, Buprenorphine, Cocaine, Methadone, NO, Opioid, THC |
 
 ## Details
 

@@ -46,23 +46,23 @@ A tibble with 53,899 rows and 19 variables:
 
 - **visit**:
 
-  |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-  |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = BASELINE)                                                                                                                                                                                                                                                                                                                                                                                                                              |
-  |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-  | *Description:* | Indicator of the visit type. For example, "WK12" is week 12 of ctn_0027 or "P2Wk13" is week 13 of phase 2 of ctn_0030. See the table above.                                                                                                                                                                                                                                                                                                                            |
-  |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-  | *Levels:*      | BASELINE, Cross Active Study, EOT, M1F, M3F, P1Finl, P1Unsc, P1Wk10, P1Wk12, P1Wk1A, P1Wk1B, P1Wk2, P1Wk3, P1Wk4, P1Wk6, P1Wk8, P2Finl, P2Unsc, P2Wk10, P2Wk11, P2Wk12, P2Wk13, P2Wk14, P2Wk15, P2Wk16, P2Wk18, P2Wk1A, P2Wk1B, P2Wk2, P2Wk20, P2Wk22, P2Wk24, P2Wk3, P2Wk4, P2Wk5, P2Wk6, P2Wk7, P2Wk8, P2Wk9, WK0, WK1, WK10, WK11, WK12, WK13, WK14, WK15, WK16, WK17, WK18, WK19, WK2, WK20, WK21, WK22, WK23, WK24, WK28, WK3, WK32, WK4, WK5, WK6, WK7, WK8, WK9 |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = BASELINE) |
+  |  |  |
+  | *Description:* | Indicator of the visit type. For example, "WK12" is week 12 of ctn_0027 or "P2Wk13" is week 13 of phase 2 of ctn_0030. See the table above. |
+  |  |  |
+  | *Levels:* | BASELINE, Cross Active Study, EOT, M1F, M3F, P1Finl, P1Unsc, P1Wk10, P1Wk12, P1Wk1A, P1Wk1B, P1Wk2, P1Wk3, P1Wk4, P1Wk6, P1Wk8, P2Finl, P2Unsc, P2Wk10, P2Wk11, P2Wk12, P2Wk13, P2Wk14, P2Wk15, P2Wk16, P2Wk18, P2Wk1A, P2Wk1B, P2Wk2, P2Wk20, P2Wk22, P2Wk24, P2Wk3, P2Wk4, P2Wk5, P2Wk6, P2Wk7, P2Wk8, P2Wk9, WK0, WK1, WK10, WK11, WK12, WK13, WK14, WK15, WK16, WK17, WK18, WK19, WK2, WK20, WK21, WK22, WK23, WK24, WK28, WK3, WK32, WK4, WK5, WK6, WK7, WK8, WK9 |
 
 - **what**:
 
-  |                |                                                                                                     |
-  |----------------|-----------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = )                                                                   |
-  |                |                                                                                                     |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = ) |
+  |  |  |
   | *Description:* | Disposition of appointment - visit, no visit or MISSING. Note there are records with no disposition |
-  |                |                                                                                                     |
-  | *Levels:*      | , final, MISSING, no visit, visit                                                                   |
+  |  |  |
+  | *Levels:* | , final, MISSING, no visit, visit |
 
 - **is_no_note**:
 

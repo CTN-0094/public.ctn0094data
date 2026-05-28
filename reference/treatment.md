@@ -24,10 +24,10 @@ A tibble with 216,242 rows and 3 variables:
 
 - **amount**:
 
-  |                |                                                                                   |
-  |----------------|-----------------------------------------------------------------------------------|
-  | *Type:*        | integer                                                                           |
-  |                |                                                                                   |
+  |  |  |
+  |----|----|
+  | *Type:* | integer |
+  |  |  |
   | *Description:* | The amount of drugs received on a day. Value is 1 for injections and mg otherwise |
 
 - **when**:

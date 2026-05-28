@@ -22,6 +22,7 @@ you will be able to install the released version of public.ctn0094data
 from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
+
 # Do not run yet
 # install.packages("public.ctn0094data")
 ```
@@ -31,6 +32,7 @@ For now, you can use the
 this database directly from GitHub with:
 
 ``` r
+
 remotes::install_github("CTN-0094/public.ctn0094data")
 ```
 
@@ -47,6 +49,7 @@ shortly in PLOS One. The expected citation would be
 To find citation information for this package, call the following code:
 
 ``` r
+
 citation("public.ctn0094data")
 ```
 

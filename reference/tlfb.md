@@ -30,13 +30,13 @@ A tibble with 237,778 rows and 3 variables:
 
 - **what**:
 
-  |                |                                                                                                                                                                                                                                                                                                                                                                                    |
-  |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = Alcohol)                                                                                                                                                                                                                                                                                                                                           |
-  |                |                                                                                                                                                                                                                                                                                                                                                                                    |
-  | *Description:* | Text description of drugs; for more information, see [Harmonization Information](https://ctn-0094.github.io/public.ctn0094data/doc/harmonization.html#tlfb)                                                                                                                                                                                                                        |
-  |                |                                                                                                                                                                                                                                                                                                                                                                                    |
-  | *Levels:*      | Alcohol, Amphetamine, Analgesic, Antibiotic, Antidepressant, Antiemetic, Antihistamine, Antipsychotic, Benadryl, Benzodiazepine, Buprenorphine, Caffeine, Cathinones, Clonidine, Cocaine, Dextromethorphan, Ghb, Hallucinogen, Heroin, Inhalant, K2, Kratom, Mdma/Hallucinogen, Methadone, Methylphenidate, Muscle Relaxant, Opioid, Pcp, Pseudoephedrine, Sedatives, THC, Unknown |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = Alcohol) |
+  |  |  |
+  | *Description:* | Text description of drugs; for more information, see [Harmonization Information](https://ctn-0094.github.io/public.ctn0094data/doc/harmonization.html#tlfb) |
+  |  |  |
+  | *Levels:* | Alcohol, Amphetamine, Analgesic, Antibiotic, Antidepressant, Antiemetic, Antihistamine, Antipsychotic, Benadryl, Benzodiazepine, Buprenorphine, Caffeine, Cathinones, Clonidine, Cocaine, Dextromethorphan, Ghb, Hallucinogen, Heroin, Inhalant, K2, Kratom, Mdma/Hallucinogen, Methadone, Methylphenidate, Muscle Relaxant, Opioid, Pcp, Pseudoephedrine, Sedatives, THC, Unknown |
 
 - **when**:
 

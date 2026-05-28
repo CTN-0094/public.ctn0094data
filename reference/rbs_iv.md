@@ -24,10 +24,10 @@ A tibble with 3,560 rows and 10 variables:
 
 - **days**:
 
-  |                |                                                                |
-  |----------------|----------------------------------------------------------------|
-  | *Type:*        | integer                                                        |
-  |                |                                                                |
+  |  |  |
+  |----|----|
+  | *Type:* | integer |
+  |  |  |
   | *Description:* | Maximum number of days of IV drug use across all injected drug |
 
 - **max**:
@@ -40,10 +40,10 @@ A tibble with 3,560 rows and 10 variables:
 
 - **amount**:
 
-  |                |                                                               |
-  |----------------|---------------------------------------------------------------|
-  | *Type:*        | integer                                                       |
-  |                |                                                               |
+  |  |  |
+  |----|----|
+  | *Type:* | integer |
+  |  |  |
   | *Description:* | Indicator of total IV drug exposure for the most used IV drug |
 
 - **shared**:

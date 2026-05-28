@@ -25,13 +25,13 @@ A tibble with 42,906 rows and 3 variables:
 
 - **what**:
 
-  |                |                                                                                                                    |
-  |----------------|--------------------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = Alcohol)                                                                           |
-  |                |                                                                                                                    |
-  | *Description:* | Name of drug identified                                                                                            |
-  |                |                                                                                                                    |
-  | *Levels:*      | Alcohol, Amphetamine, Benzodiazepine, Buprenorphine, Cocaine, Mdma/Hallucinogen, Methadone, Opioid, Sedatives, Thc |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = Alcohol) |
+  |  |  |
+  | *Description:* | Name of drug identified |
+  |  |  |
+  | *Levels:* | Alcohol, Amphetamine, Benzodiazepine, Buprenorphine, Cocaine, Mdma/Hallucinogen, Methadone, Opioid, Sedatives, Thc |
 
 - **when**:
 

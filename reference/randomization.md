@@ -23,23 +23,23 @@ A tibble with 4,691 rows and 4 variables:
 
 - **treatment**:
 
-  |                |                                                                                                        |
-  |----------------|--------------------------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = Inpatient BUP)                                                         |
-  |                |                                                                                                        |
-  | *Description:* | What treatment is prescribed?                                                                          |
-  |                |                                                                                                        |
-  | *Levels:*      | Inpatient BUP, Inpatient NR-NTX, Methadone, Outpatient BUP, Outpatient BUP + EMM, Outpatient BUP + SMM |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = Inpatient BUP) |
+  |  |  |
+  | *Description:* | What treatment is prescribed? |
+  |  |  |
+  | *Levels:* | Inpatient BUP, Inpatient NR-NTX, Methadone, Outpatient BUP, Outpatient BUP + EMM, Outpatient BUP + SMM |
 
 - **which**:
 
-  |                |                                                                                      |
-  |----------------|--------------------------------------------------------------------------------------|
-  | *Type:*        | factor (First/Reference level = 1)                                                   |
-  |                |                                                                                      |
+  |  |  |
+  |----|----|
+  | *Type:* | factor (First/Reference level = 1) |
+  |  |  |
   | *Description:* | Indicator of which randomization. Needed because CTN 30 has two randomization dates. |
-  |                |                                                                                      |
-  | *Levels:*      | 1, 2                                                                                 |
+  |  |  |
+  | *Levels:* | 1, 2 |
 
 - **when**:
 
