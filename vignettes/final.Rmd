@@ -514,7 +514,7 @@ Harmonized demographics data from the three National Drug Treatment Clinical Tri
 analysis_demographics %>% 
   select(-who) %>% 
   mutate(Sex = fct_drop(Sex)) %>% 
-  mutate(Sex = fct_drop(Ethnicity)) %>% 
+  mutate(Ethnicity = fct_drop(Ethnicity)) %>% 
   table1(
     ~ Sex + Age + Ethnicity + Race + Education + `Relationship Status` + 
       Employment + `Usual Living Arragements` | project,
