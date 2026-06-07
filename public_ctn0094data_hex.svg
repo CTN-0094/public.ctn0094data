@@ -1,0 +1,50 @@
+<svg width="100%" viewBox="0 0 400 462" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>public.ctn0094data hex sticker</title>
+  <desc>Hex sticker for public.ctn0094data. Three interlocking circles for CTN-0027, CTN-0030, CTN-0051 with CTN-0094 in the center intersection, NIDA CTN navy and blue color scheme.</desc>
+
+  <defs>
+    <clipPath id="hex-clip">
+      <polygon points="200,18 374,118 374,318 200,418 26,318 26,118" />
+    </clipPath>
+  </defs>
+
+  <polygon points="200,18 374,118 374,318 200,418 26,318 26,118" fill="#1B3A5E" />
+
+  <g clip-path="url(#hex-clip)">
+    <circle cx="200" cy="143" r="78" fill="#2E78B7" fill-opacity="0.18" stroke="#2E78B7" stroke-width="2.5"/>
+    <circle cx="161" cy="218" r="78" fill="#5BA3D9" fill-opacity="0.13" stroke="#5BA3D9" stroke-width="2.5"/>
+    <circle cx="239" cy="218" r="78" fill="#A8CDEF" fill-opacity="0.12" stroke="#A8CDEF" stroke-width="2.5"/>
+  </g>
+
+  <text x="200" y="200" text-anchor="middle"
+    font-family="'Arial', sans-serif" font-size="12" font-weight="700"
+    fill="#A8CDEF" letter-spacing="0.5">CTN-0094</text>
+
+  <text x="200" y="97" text-anchor="middle"
+    font-family="'Arial', sans-serif" font-size="12" font-weight="700"
+    fill="#A8CDEF" letter-spacing="0.5">CTN-0027</text>
+
+  <text x="123" y="232" text-anchor="middle"
+    font-family="'Arial', sans-serif" font-size="12" font-weight="700"
+    fill="#A8CDEF" letter-spacing="0.5">CTN-0030</text>
+
+  <text x="277" y="232" text-anchor="middle"
+    font-family="'Arial', sans-serif" font-size="12" font-weight="700"
+    fill="#A8CDEF" letter-spacing="0.5">CTN-0051</text>
+
+  <text x="200" y="322" text-anchor="middle"
+    font-family="'Arial', sans-serif" font-size="14" font-weight="700"
+    fill="#FFFFFF" letter-spacing="0.3">public.ctn0094data</text>
+
+  <text x="200" y="342" text-anchor="middle"
+    font-family="'Arial', sans-serif" font-size="9.5" font-weight="400"
+    fill="#A8CDEF" letter-spacing="1.0">Harmonized OUD Treatment Data</text>
+
+  <rect x="183" y="354" width="34" height="20" rx="4" fill="#2E78B7" opacity="0.95"/>
+  <text x="200" y="368" text-anchor="middle"
+    font-family="'Arial', sans-serif" font-size="13" font-weight="700"
+    fill="#FFFFFF">R</text>
+
+  <polygon points="200,18 374,118 374,318 200,418 26,318 26,118"
+    fill="none" stroke="#5BA3D9" stroke-width="5.5"/>
+</svg>
